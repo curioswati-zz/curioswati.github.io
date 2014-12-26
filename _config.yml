@@ -3,7 +3,7 @@ title: Learn and Share
 email: jaiswalswati94atTheRategMail doT Com
 description: > # this means to ignore newlines until "baseurl:"
   Keep Learning Keep Sharing.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: /home # the subpath of your site, e.g. /blog/
 url: "http://swati-jaiswal.github.io" # the base hostname & protocol for your site
 twitter_username: swati12jaiswal
 github_username:  swati-jaiswal
