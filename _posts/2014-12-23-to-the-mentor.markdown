@@ -2,8 +2,8 @@
 layout: post
 title:  "To the mentor..."
 date:   2014-12-23 12:30:00
-categories: mentor Ankit-kulkarni
-permalink: /:categories/:title/
+categories: mentors Ankit-kulkarni
+permalink: /mentors/ankit-kulkarni/
 ---
 <p style="text-align:justify;">Hello, I am Swati Jaiswal. A student at <a href="http://iips.edu.in">IIPS-DAVV</a>. Currently in 3rd year of integrated M.Tech (IT) and today I am going to present my first blog post on my own blog.</p>
 
@@ -48,22 +48,6 @@ Jokes apart, but it was actually amazing. This quality of yours has made me spea
 <p style="text-align:justify;">Thank you!</p>
 <p style="text-align:justify;"><br>PS: I won’t say he is a great personality, or the best mentor of the world or a person with great thoughts or some big things about him. Because he indeed is a simple personality who has his own simple life, and general thoughts. But who has mentored me as no one did before. Its not that he taught me something that no one could but he taught me the way no one could. He did not put the developer in me, he made me realize that it is inside me. The thing that seems very easy but very hard to do, he transformed a personality. For me, he is no one else but, <i><b>My mentor!</b></i></p>
 
-<p style="text-align:justify;">In the end, here is a poem on self confidence from vaishnavpulkit, the poem is in hindi:</p>
-<p style="text-align:justify;">
-Mushkil rahon me apno ka saya hoon,<br>
-Kadi dhup me paidon ki chhaya hoon,<br>
-Kathin imtehan me himmat ka sahara hoon,<br>
-Maa k aanchal me khushi ka aahsas hoon,<br>
-Pita ki daant me ankaha ehsas hoon,<br> 
-Jeet k baad aankho ka abhiman hoon,<br>
-Musafir k liye manzil pane ka jazbat hoon,<br>
-Dukh me khushi ka ujiyara hoon,<br>
-Pyase k liye nadi ka kinara hoon,<br>
-Ghor andhkar me ummeed ka chirag hoon,<br> 
-Pathar k andar bhi astha ka vishwas hoon,<br>
-Main tumhare andar hu main tumhare aas pas hoon,<br>
-Mujhe pahchan bhi lo, main tumhara aatmvishwas hoon.<br><br>
-</p>
 Stay tuned for more...
 
 
