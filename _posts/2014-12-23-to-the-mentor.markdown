@@ -3,7 +3,7 @@ layout: post
 title:  "To the mentor..."
 date:   2014-12-23 12:30:00
 categories: mentors Ankit-kulkarni
-permalink: /mentors/ankit-kulkarni/
+permalink: /mentors/Ankit-kulkarni/to-the-mentor/
 ---
 <p style="text-align:justify;">Hello, I am Swati Jaiswal. A student at <a href="http://iips.edu.in">IIPS-DAVV</a>. Currently in 3rd year of integrated M.Tech (IT) and today I am going to present my first blog post on my own blog.</p>
 
