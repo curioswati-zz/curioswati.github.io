@@ -1,5 +1,32 @@
 ---
 layout: default-about
 title: Video Lectures
-permalink: /about/videos/
+permalink: /videos/
 ---
+<div class="home">
+
+  <h1 class="page-heading">Videos</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+
+        <span class="post-meta" style="font-size:14px;">{{ post.date | date: "%b %-d, %Y" }}<<</span>
+
+        <a style="font-size:18px;" href="#">video title</a>
+
+        <video width=600px height=270px controls>
+
+          <source src="files/The_Holographic_Home.mp4" type="video/mp4">
+
+        </video>
+
+        <hr style="margin:10px 0;">
+
+        <p>Notes</p>        
+
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
