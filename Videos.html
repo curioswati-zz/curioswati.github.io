@@ -4,29 +4,65 @@ title: Video Lectures
 permalink: /videos/
 ---
 <div class="home">
+	<div class="row">
+		<div class="col-md-8">
+			<h1 class="page-heading">Videos</h1>
+			  <ul class="post-list">
+			    <li>
+			        <span class="post-meta" style="font-size:14px;">Dec 30, 2014<<</span>
+			        <a style="font-size:18px;" href="#">Title</a><br>
+			        <iframe width="460" height="315" src="//www.youtube.com/embed/rGLKCrUCXN4" frameborder="0" allowfullscreen>
+			        </iframe> 
+		        </li>
+		        <hr style="margin:10px 0;">
+			  </ul>
+		      <p>Notes</p>         	
+        </div>
+   	    <div class="col-md-4">
+		   <ul>
+				<li class="category">
+					<h4>NAD</h4>
+					<ul>
+						<li class="category">Internal-I
+							<ul>
+								<li>
+									<a href="https://www.youtube.com/watch?v=rGLKCrUCXN4">Solving pair of equations</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=kZrNiLP0Ym4">Solving polynomial equations</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=naQWbUd93kM">Finding roots of a cubic equation</a>
+								</li>
+							</ul>
+						</li>
+						<li class="category">Internal-III
+							<ul>
+								<li>
+									<a href="https://www.youtube.com/watch?v=z7gj63nRZes">Gauss eleminition method</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=O3Jt9Y_g4NI">Comparison of root finding techniques</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=JB9e-nfW5tk">Convergence order theorem</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=LOv16vd8BnY">Cosequences of floating point representaion</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+	  </div>
+    </div>
 
-  <h1 class="page-heading">Videos</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-
-        <span class="post-meta" style="font-size:14px;">{{ post.date | date: "%b %-d, %Y" }}<<</span>
-
-        <a style="font-size:18px;" href="#">video title</a>
-
-        <video width=600px height=270px controls>
+<!--         <video width=600px height=270px controls>
 
           <source src="files/The_Holographic_Home.mp4" type="video/mp4">
 
         </video>
-
-        <hr style="margin:10px 0;">
-
-        <p>Notes</p>        
-
-      </li>
-    {% endfor %}
-  </ul>
+ -->
 
 </div>
