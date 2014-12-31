@@ -5,50 +5,58 @@ permalink: /videos/
 ---
 <div class="home">
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-md-9">
 			<h1 class="page-heading">Videos</h1>
 			  <ul class="post-list">
 			    <li>
 			        <span class="post-meta" style="font-size:14px;">Dec 30, 2014<<</span>
-			        <a style="font-size:18px;" href="#">Title</a><br>
-			        <iframe width="460" height="315" src="//www.youtube.com/embed/rGLKCrUCXN4" frameborder="0" allowfullscreen>
+			        <a style="font-size:18px;" href="#" id="title">Solving pair of equations</a><br>
+			        <iframe id="show" width="460" height="315" src="//www.youtube.com/embed/rGLKCrUCXN4" frameborder="0" allowfullscreen>
 			        </iframe> 
 		        </li>
 		        <hr style="margin:10px 0;">
 			  </ul>
-		      <p>Notes</p>         	
+			  <div>
+			  	<p>Notes</p>
+			  	<p id="notes">
+			  		For normalization, the post is not available for now.</a>.<br>
+			  		The program is written in <a href="http://www.python.org">python programming language</a>.<br>
+			  		In the end of program, x is assigned to norm(subtract(c_minus_b_mult_y,a)). <br>
+			  		After that <code>print 'x: %f\ny: %f' % (x,y)</code>.
+			  	</p>
+			  </div>         	
         </div>
-   	    <div class="col-md-4">
+   	    <div class="col-md-3">
 		   <ul>
-				<li class="category">
-					<h4>NAD</h4>
+		   <h4>Video archive</h4>
+				<li class="category">NAD
 					<ul>
 						<li class="category">Internal-I
 							<ul>
 								<li>
-									<a href="https://www.youtube.com/watch?v=rGLKCrUCXN4">Solving pair of equations</a>
+									<a onclick = "loadVideo('//www.youtube.com/embed/rGLKCrUCXN4', 'Solving pair of equations')">Solving pair of equations</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/watch?v=kZrNiLP0Ym4">Solving polynomial equations</a>
+									<a onclick="loadVideo('////www.youtube.com/embed/kZrNiLP0Ym4','Solving polynomial equations', 'In the flow-chart, replace <code>write p</code> with <code>write b<sub>i</sub></code>')">Solving polynomial equations</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/watch?v=naQWbUd93kM">Finding roots of a cubic equation</a>
+									<a onclick="loadVideo('//www.youtube.com/embed/naQWbUd93kM', 'Finding roots of a cubic equation', 'no notes for the video')">Finding roots of a cubic equation</a>
 								</li>
 							</ul>
 						</li>
 						<li class="category">Internal-III
 							<ul>
 								<li>
-									<a href="https://www.youtube.com/watch?v=z7gj63nRZes">Gauss eleminition method</a>
+									<a onclick="loadVideo('//www.youtube.com/embed/z7gj63nRZes', 'Gauss eleminition method')">Gauss eleminition method</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/watch?v=O3Jt9Y_g4NI">Comparison of root finding techniques</a>
+									<a onclick="loadVideo('//www.youtube.com/embed/O3Jt9Y_g4NI', 'Comparison of root finding techniques')">Comparison of root finding techniques</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/watch?v=JB9e-nfW5tk">Convergence order theorem</a>
+									<a onclick="loadVideo('//www.youtube.com/embed/JB9e-nfW5tk', 'Convergence order theorem')">Convergence order theorem</a>
 								</li>
 								<li>
-									<a href="https://www.youtube.com/watch?v=LOv16vd8BnY">Cosequences of floating point representaion</a>
+									<a onclick="loadVideo('//www.youtube.com/embed/LOv16vd8BnY', 'Cosequences of floating point representaion', 'Resource link to floating point representation is not available for now.')">Cosequences of floating point representaion</a>
 								</li>
 							</ul>
 						</li>
@@ -57,12 +65,17 @@ permalink: /videos/
 			</ul>
 	  </div>
     </div>
+    <script type="text/javascript">
+	    var loadVideo = function (source, title, notes) {
+	    	frame = document.getElementById("show");
+	    	frame.src = source;
+	    	Title = document.getElementById("title");
+	    	Title.innerHTML = title;
+	    	if (notes != null) {
+	    		note_para = document.getElementById('notes');
+	    		note_para.innerHTML = notes+'<br>Please mail me, if any flaws found, so that i can add in notes for convinience.';
+	    		}
+	    }
 
-<!--         <video width=600px height=270px controls>
-
-          <source src="files/The_Holographic_Home.mp4" type="video/mp4">
-
-        </video>
- -->
-
+    </script>
 </div>
