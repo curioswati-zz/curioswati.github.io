@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "To the mentor (Ankit Kulkarni)..."
 date:   2014-12-23 12:30:00
 categories: mentors Ankit-kulkarni
