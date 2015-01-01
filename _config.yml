@@ -13,3 +13,16 @@ permalink: date
 
 # Build settings
 markdown: kramdown
+
+#defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+#highlighting
+highlighter: pygments
+excerpt_separator: ""
