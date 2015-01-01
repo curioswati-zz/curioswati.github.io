@@ -1,0 +1,63 @@
+---
+title: "Python: Interpreted or Compiled"
+permalink: "\\python\python-interpretive-or-compiled\"
+uuid: "7473556712589017536"
+guid: "tag:blogger.com,1999:blog-6547550913838169867.post-7473556712589017536"
+date: "2014-12-28 10:46:00"
+description: 
+blogger:
+    siteid: "6547550913838169867"
+    postid: "7473556712589017536"
+    comments: "0"
+categories: 
+author: 
+    name: "SWATI JAISWAL"
+    url: "https://plus.google.com/110860846254320536484?rel=author"
+    image: "http://img2.blogblog.com/img/b16-rounded.gif"
+---
+<style type="text/css">
+	h3
+	{
+		color: #17365d;
+	}
+	h4
+	{
+		font-weight: bold;
+	}
+	table
+	{
+		width: 600px;
+	}
+	td
+	{
+		border: 1px solid black;
+		text-align: center;
+/*		padding: 0 2px 0 15px;*/
+		height: 20px;
+	}
+</style>
+<p>
+I have been long puzzled about this question, whether Python is an interpretive language or compiled one. I was told that it is an interpretive language. But again a question raises that, if it is not compiled then what stuff, is that, a file named with an extension of .pyc.<br>
+Hence, as a result of a small surfing, I am on a conclusion as mentioned below.</p><br>
+<h3>An interpretive language:</h3>
+<p>Python is basically an <a href="http://en.wikipedia.org/wiki/Interpreted_language">interpreted language</a>.</p>
+<p>An interpretive language is one, in which, the translation of high level <a href="http://en.wikipedia.org/wiki/Source_Code">Source Code</a> to low level <a href="http://en.wikipedia.org/wiki/Machine_code">Machine code</a> is done by an <a href="http://en.wikipedia.org/wiki/Interpreter_%28computing%29">interpreter</a>, a kind of translator. The interpreter reads the source code line by line, and executes it along the way.</p>
+<p>It does not convert it into any object code that can be saved on disc, i.e. you can write the source code and save it as a script. Then when you run the code, the interpreter goes through each line and converts the code to machine understandable code and executes it. As we should notice, the code is not saved as a converted machine code; it is just dynamically converted to get executed. This is one of the reasons, why Python is called <a href="http://en.wikipedia.org/wiki/Dynamic_programming_language">Dynamic programming language</a>. In this way, the code is still just source code, even after the execution. Now, when you run the code again, the same procedure follows. One reason, why Python is slow.</p>
+<blockquote>Now, what is “.pyc” then?</blockquote>
+<p>For that let’s look at a term called, <a href="http://en.wikipedia.org/wiki/Bytecode">“Byte code”</a>.</p><br>
+<h3>Byte Code:</h3>
+<p>In between, the concept of interpreted and Compiled paradigms, there come the concept of portable compiled languages. In these, the Source Code is converted to byte code, and the python interpreter then executes the byte code line by line, converting it to machine code.</p>
+<p>So, byte code is a converted form of source code, which is faster in later conversion to machine code. Unlike source code, byte codes are compact numeric codes, constants, and references (normally numeric addresses) which parse the <a href="http://en.wikipedia.org/wiki/Semantics_%28computer_science%29">Semantics</a> of a program object and encode it, resulting in better performance than direct interpretation of source code. A point to be marked here is that, the byte code itself can’t be directly executed by the machine. It again needs interpreter for execution. In this way, the execution is faster than source execution only and not compiled.</p><br>
+<h3>#.PYC:</h3>
+<p>Now, a PYC (PYthon Cached) file is just the byte code of a script written in Python. It comes in existence, when we import the .py file as a module in another script or in interactive shell of Python. When a module is imported, the script needs to interpret the module file also.  Since these modules undergo repeated use, the interpreter converts their source code into byte code and stores that into a file named with extension ‘.pyc’. In this way, when a script imports that module, the byte code version already exists, ready and fast to use. Furthermore, these modules become portable across multiple platforms.</p>
+<p>Hence, the pyc file is not a compiled file, as it is not able to execute directly. It is just a conversion of source into byte code, so that the execution is less overhead as the interpreter needs fewer conversions to perform.</p>
+<p>
+References:<br>
+<a href="http://www.ehow.com/info_12214796_pyc-files.html">http://www.ehow.com/info_12214796_pyc-files.html</a><br>
+<a href="http://www.wikipedia.org/wiki/bytecode.html">http://www.wikipedia.org/wiki/bytecode.html</a><br>
+<a href="http://julipedia.meroh.net/2004/07/compiled-vs-interpreted-languages.html?m=1">http://julipedia.meroh.net/2004/07/compiled-vs-interpreted-languages.html?m=1</a><br>
+</p>
+<p>This thread was also helpful,Alex Martelli’s, and Jorg W Mittag answer :</p>
+<a href="http://stackoverflow.com/questions/2998215/if-python-is-interpreted-what-are-pyc-files.html">
+http://stackoverflow.com/questions/2998215/if-python-is-interpreted-what-are-pyc-files.html
+</a>
