@@ -8,10 +8,6 @@ permalink: /numerical-analysis/floating-point-representation-of-real-numbers/
 	{
 		color: rgb(128,128,255);
 	}
-	h4
-	{
-		font-weight: bold;
-	}
 	table
 	{
 		width: 600px;
