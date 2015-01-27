@@ -1,6 +1,6 @@
 ---
 title:  "Creating an app in TideSDK: Six steps to go"
-date:   2015-01-05 17:08:00
+date:   2015-01-03 17:08:00
 categories: TideSDK
 permalink: /TideSDK/creating-an-app-in-tidesdk.html
 ---
