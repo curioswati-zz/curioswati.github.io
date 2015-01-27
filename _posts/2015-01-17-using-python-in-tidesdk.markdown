@@ -23,7 +23,7 @@ permalink: /TideSDK/python/how-to-use-a-python-script-in-tidesdk.html
 		</pre>
 </p>
 
-<p>Now you need to modify the <strong>index.html</strong></p>
+<p>Now you need to modify the <strong>index.html</strong>
 	{% highlight html %}
 
 <!DOCTYPE html>
