@@ -9,8 +9,8 @@ permalink: /python/wxpython/Creating-a-simple-GUI-window-using-wxpython.html
 	Let's get started with wxpython. We will see how to create a simple window named "Hello World!". First, get wxpython.
 </p>
 <p>
-	Windows:  Download it from <a href="#">here</a>.<br>
-	Linux  :  <code>sudo apt-get install wxgtk2.8 wxtools</code>
+	Windows:  Download it from <a href="http://www.wxpython.org/download.php">here</a>.<br>
+	Linux  :  <code>  sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-doc wx2.8-examples wx2.8-headers wx2.8-i18n libwxgtk2.8-dev libgtk2.0-dev</code>
 </p>
 <p>We will have two python files for this example. Those are :<br>
 <blockquote>
