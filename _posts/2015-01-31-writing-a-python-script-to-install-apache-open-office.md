@@ -4,7 +4,7 @@ date:   2015-01-31 17:50:00
 categories: python
 permalink: /python/writing-a-python-script-to-install-apache-open-office.html
 ---
-<p>We will be writing a python script to create a command for installing apache open office.</p>
+<p>We will be writing a python script to create an installer for apache open office.</p>
 <p>Here is the code, we will go through it step by step.</p>
 {% highlight python %}
 #!/usr/bin/env python
@@ -15,15 +15,15 @@ import platform
 <p>Here, we have imported some python libraries. <a href="https://docs.python.org/2/library/subprocess.html">subprocess</a> is used for running the bash commands. <a href="https://docs.python.org/2/library/optparse.html">optparse</a>is for command line option parsing. <a href="https://docs.python.org/2/library/platform.html">platform</a> is used for getting the details of the system on which the script is running.</p>
 
 {% highlight python %}
-INSTALL = []
-UNINSTALL = ["sudo apt-get purge openoffice*.* && sudo apt-get autoremove"]
+install = []
+uninstall = ["sudo apt-get purge openoffice*.* && sudo apt-get autoremove"]
 PLATFORM = platform.system()
 ARCHITECTURE = platform.architecture()[0]
 {% endhighlight %}
 <p>Here are the global variables.
 	<ul>
-		<li><b>INSTALL</b>: for collecting commands for install option.</li>
-		<li><b>UNINSTALL</b>: for collecting commands for uninstall option.</li>
+		<li><b>install</b>: for collecting commands for install option.</li>
+		<li><b>uninstall</b>: for collecting commands for uninstall option.</li>
 		<li><b>PLATFORM</b>: for identifying operating system.</li>
 		<li><b>ARCHITECTURE</b>: for identifying processor.</li>
 	</ul>
@@ -32,6 +32,9 @@ ARCHITECTURE = platform.architecture()[0]
 {% highlight python %}
 #----------------------------Running commands-----------------------------
 def run_commands(cmds):
+  """
+  Function which run all the commands one by one.
+  """
   for cmd in cmds:
     subprocess.call(cmd, shell=True)
 {% endhighlight %}
@@ -39,10 +42,16 @@ def run_commands(cmds):
 
 <p>Here is the controller, which does all the command line handling. Let's take it in parts.</p>
 {% highlight python %}
-#---------------Function to control option parsing in Python--------------
+
+#---------------------------Option parsing--------------------------------
 def controller():
-    global VERBOSE, INSTALL, UNINSTALL
-    #Create instance of OptionParser Module, included in Standard Library
+    """
+    Function which does parsing of command line options and
+    also prepares a list of commands that are used for installation.
+    """
+    global VERBOSE, install, uninstall
+
+    #Create instance of OptionParser Module, included in Standard Library and adds option in it.
     p = optparse.OptionParser(
                           description='For installing Apache open office',
                           prog='install-open-office',
@@ -61,17 +70,18 @@ def controller():
 {% highlight python %}
     #Option Handling passes correct parameter to runBash
     options, arguments = p.parse_args()
+
     if options.verbose:
         VERBOSE=True
     if options.install:
-    #-----------------------setting commands-----------------------
+    #--------------------------setting commands---------------------------
 	    #Removing libreoffice
-	    INSTALL.append("sudo apt-get remove --purge libreoffice* libexttextcat-data* && sudo apt-get autoremove")
+	    install.append("sudo apt-get remove --purge libreoffice* libexttextcat-data* && sudo apt-get autoremove")
 	    #removing openoffice
-	    INSTALL.append("sudo apt-get purge openoffice*.* && sudo apt-get autoremove")
+	    install.append("sudo apt-get purge openoffice*.* && sudo apt-get autoremove")
 
 	    #change to /tmp
-	    INSTALL.append("cd /tmp")
+	    install.append("cd /tmp")
 
 	    #download the application
 	    if PLATFORM == "Linux":
@@ -91,17 +101,19 @@ def controller():
 	      print "Wrong operating system detected."
 
 	    #extract
-	    INSTALL.append("tar -xvf Apache_OpenOffice*.tar.gz")
+	    install.append("tar -xvf Apache_OpenOffice*.tar.gz")
 
 	    #install deb
-	    INSTALL.append("sudo dpkg -i en-US/DEBS/*.deb")
+	    install.append("sudo dpkg -i en-US/DEBS/*.deb")
 
 	    #install the desktop-integration
-	    INSTALL.append("sudo dpkg -i en-US/DEBS/desktop-integration/*.deb")
+	    install.append("sudo dpkg -i en-US/DEBS/desktop-integration/*.deb")
 
-	    value = run_commands(INSTALL)
+	    value = run_commands(install)
+
     elif options.uninstall:
-        value = run_commands(UNINSTALL)
+        value = run_commands(uninstall)
+
     else:
         p.print_help()
 {% endhighlight %}
@@ -123,7 +135,7 @@ if __name__ == '__main__':
 
 {% endhighlight %}
 <p>Finally, call the controller in main method and main method is called automatically by the program.</p>
-<p>And here the program ends. We have created our command to install apache open office. Next, You have to make the script executable.</p>
+<p>And here the program ends. We have created our installer script to install apache open office. Next, You have to make the script executable.</p>
 <pre>
 chmod +x install_apache_open_office.py
 </pre>
@@ -131,4 +143,5 @@ chmod +x install_apache_open_office.py
 <pre>
 bash install_apache_open_office.py
 </pre>
-<p>You can clone the script from <a href="https://gist.github.com/swati-jaiswal/ca19ea4e412624b52006">Github</a>.</p>
+<p>You can clone the script from <a href="https://gist.github.com/swati-jaiswal/ca19ea4e412624b52006">Github Gists</a>.<br>
+You can also find other installers there for installing anaconda and ruby 2.2. Just download and make them executable and run then.</p>
