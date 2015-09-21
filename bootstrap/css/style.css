@@ -18,3 +18,18 @@ img {
 	height:150px;
 	width:150px;
 }
+body {
+	padding-bottom: 70px;
+}
+.navbar-fixed-top {
+        max-height: 340px;
+        padding-right: 0;
+        padding-left: 0;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        border-radius: 0;
+        top: 0;
+        border-width: 0 0 1px;
+}
