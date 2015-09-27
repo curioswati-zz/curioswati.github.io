@@ -1,35 +1,17 @@
 ---
-layout: default-about
+layout: default
 title: Video Lectures
 permalink: /videos/
 ---
 <div class="home">
+	<h1 class="page-heading">Videos</h1>
+	<br>
+
 	<div class="row">
-		<div class="col-md-9">
-			<h1 class="page-heading">Videos</h1>
-			  <ul class="post-list">
-			    <li>
-			        <span class="post-meta" style="font-size:14px;">Dec 30, 2014<<</span>
-			        <a style="font-size:18px;" href="#" id="title">Solving pair of equations</a><br>
-			        <iframe id="show" width="460" height="315" src="//www.youtube.com/embed/rGLKCrUCXN4" frameborder="0" allowfullscreen>
-			        </iframe> 
-		        </li>
-		        <hr style="margin:10px 0;">
-			  </ul>
-			  <div>
-			  	<p>Notes</p>
-			  	<p id="notes">
-			  		For normalization, refer to the <a href="/numerical-analysis/floating-point-representation-of-real-numbers/#normalize">post</a>.<br>
-			  		The program is written in <a href="http://www.python.org">python programming language</a>.<br>
-			  		In the end of program, x is assigned to norm(subtract(c_minus_b_mult_y,a)). <br>
-			  		After that <code>print 'x: %f\ny: %f' % (x,y)</code>.
-			  	</p>
-			  </div>         	
-        </div>
-   	    <div class="col-md-3">
+   	    <div class="col-md-5">
 		   <ul>
-		   <h4>Video archive</h4>
-				<li class="category">NAD
+		   <h4>Video Archive</h4>
+				<li class="category"><b>NAD</b>
 					<ul>
 						<li class="category">Internal-I
 							<ul>
@@ -63,8 +45,32 @@ permalink: /videos/
 					</ul>
 				</li>
 			</ul>
-	  </div>
+		</div>
+
+		<div class="col-md-7">
+			<h4>Lectures</h4>
+			<ul class="post-list">
+			    <li>
+			        <span class="post-meta" style="font-size:14px;">Dec 30, 2014<<</span>
+			        <a style="font-size:18px;" href="#" id="title">Solving pair of equations</a><br>
+			        <iframe id="show" width="460" height="315" src="//www.youtube.com/embed/rGLKCrUCXN4" frameborder="0" allowfullscreen>
+			        </iframe> 
+		        </li>
+		        <hr style="margin:10px 0;">
+		    </ul>
+		    <div>
+		      	<p>Notes</p>
+		      	<p id="notes">
+		      		For normalization, refer to the <a href="/numerical-analysis/floating-point-representation-of-real-numbers/#normalize">post</a>.<br>
+			  		The program is written in <a href="http://www.python.org">python programming language</a>.<br>
+			  		In the end of program, x is assigned to norm(subtract(c_minus_b_mult_y,a)). <br>
+			  		After that <code>print 'x: %f\ny: %f' % (x,y)</code>.
+			  	</p>
+			</div>         	
+        </div>
+
     </div>
+
     <script type="text/javascript">
 	    var loadVideo = function (source, title, notes) {
 	    	frame = document.getElementById("show");

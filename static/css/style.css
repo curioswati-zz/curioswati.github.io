@@ -18,10 +18,10 @@ img {
 	height:150px;
 	width:150px;
 }
-body {
-	padding-bottom: 70px;
+footer {
+        height: 150px;
 }
-.navbar-fixed-top {
+.site-header {
         max-height: 340px;
         padding-right: 0;
         padding-left: 0;
