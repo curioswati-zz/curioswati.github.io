@@ -24,5 +24,4 @@ defaults:
       layout: "post"
 
 #highlighting
-highlighter: pygments
 excerpt_separator: ""
