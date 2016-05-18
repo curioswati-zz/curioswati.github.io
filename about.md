@@ -1,8 +1,9 @@
 ---
-layout: default-about
+layout: default
 title: About
 permalink: /about/
 ---
+
 <div class="wrapper">
 	<center>
 	<img src="http://www.gravatar.com/avatar/4b21fec52016508a032b81c7ac15b3c6">
