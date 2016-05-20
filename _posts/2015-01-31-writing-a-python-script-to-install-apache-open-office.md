@@ -1,6 +1,7 @@
 ---
 title:  "Writing a python script to install apache open office"
 date:   2015-01-31 17:50:00
+tags: ['tool', 'CLI', 'apache-open-office', 'scripting', 'python']
 categories: python
 permalink: /python/writing-a-python-script-to-install-apache-open-office.html
 ---
@@ -12,7 +13,12 @@ import subprocess
 import optparse
 import platform
 {% endhighlight %}
-<p>Here, we have imported some python libraries. <a href="https://docs.python.org/2/library/subprocess.html">subprocess</a> is used for running the bash commands. <a href="https://docs.python.org/2/library/optparse.html">optparse</a>is for command line option parsing. <a href="https://docs.python.org/2/library/platform.html">platform</a> is used for getting the details of the system on which the script is running.</p>
+
+Here, we have imported some python libraries.
+
+* <a href="https://docs.python.org/2/library/subprocess.html">subprocess</a>: is used for running the bash commands.
+* <a href="https://docs.python.org/2/library/optparse.html">optparse</a>: is for command line option parsing.
+* <a href="https://docs.python.org/2/library/platform.html">platform</a>: is used for getting the details of the system on which the script is running.
 
 {% highlight python %}
 install = []
@@ -143,5 +149,5 @@ chmod +x install_apache_open_office.py
 <pre>
 bash install_apache_open_office.py
 </pre>
-<p>You can clone the script from <a href="https://gist.github.com/swati-jaiswal/ca19ea4e412624b52006">Github Gists</a>.<br>
+<p>You can clone the script from <a href="https://gist.github.com/curioswati/ca19ea4e412624b52006">Github Gists</a>.<br>
 You can also find other installers there for installing anaconda and ruby 2.2. Just download and make them executable and run then.</p>

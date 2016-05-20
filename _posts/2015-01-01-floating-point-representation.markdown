@@ -1,6 +1,8 @@
 ---
 title:  "Floating point representation of real numbers."
 date:   2015-01-01 10:08:00
+tags: ['arithmetic', 'floating-point', 'numerical-analysis']
+categories: numerical-analysis
 permalink: /numerical-analysis/floating-point-representation-of-real-numbers/
 ---
 <style type="text/css">
@@ -143,4 +145,3 @@ Normalize ->1.100011E 00110101<br>
 <h3 id="ref">References:</h3>
 <a href="http://en.wikipedia.org/wiki/Normalized_number">Normalized_number</a><br>
 <a href="/videos/">My Video-lecture</a>
-</p>

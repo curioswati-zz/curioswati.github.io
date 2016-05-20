@@ -1,6 +1,7 @@
 ---
 title:  "How to hide a user from login screen in ubuntu 14.04"
 date:   2016-03-24 20:30:00
+tags: ['login-preference', 'hacks', 'ubuntu']
 categories: hacks ubuntu 
 permalink: /hacks/ubuntu/hide-user-from-login-screen-in-ubuntu-14-04.html
 ---

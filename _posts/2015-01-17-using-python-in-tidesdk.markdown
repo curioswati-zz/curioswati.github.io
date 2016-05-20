@@ -1,6 +1,7 @@
 ---
 title:  "How to use a python script in TideSDK: with an example"
 date:   2015-01-17 18:08:00
+tags: ['html', 'css', 'desktop-app', 'tutorial', 'tide-sdk', 'python']
 categories: TideSDK python
 permalink: /TideSDK/python/how-to-use-a-python-script-in-tidesdk.html
 ---

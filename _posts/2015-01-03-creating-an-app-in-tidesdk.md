@@ -1,6 +1,7 @@
 ---
 title:  "Creating an app in TideSDK: Six steps to go"
 date:   2015-01-03 17:08:00
+tags: ['html', 'css', 'desktop-app', 'tutorial', 'tide-sdk']
 categories: TideSDK
 permalink: /TideSDK/creating-an-app-in-tidesdk.html
 ---
@@ -11,7 +12,7 @@ permalink: /TideSDK/creating-an-app-in-tidesdk.html
 <p>First you need to install TideSDK. Now open the TideSDK developer and follow the steps:</p>
 <ul>
 
-  <li>Click on 'New Project'.</li>
+  <li>Click on <b>'New Project'</b>.</li>
 
   <li>
     Fill in the required information. Use the data given below:
@@ -25,7 +26,7 @@ permalink: /TideSDK/creating-an-app-in-tidesdk.html
   </li>
 
   <li>
-    Click 'Create Project'
+    Click <b>'Create Project'</b>
     <p>As you click the create button, you can see the information of your application in the same window with some additional information.</p>
     <p>Now browse to the directory in which you created the app. You will see a folder named DemoApp there. You can see some folders and files in it. You will find detailes about them <a href="http://tidesdk.multipart.net/docs/user-dev/generated/#!/guide/getting_started-section-5">here</a>. Here is the directory structure you will get:
       <pre>
@@ -88,7 +89,7 @@ permalink: /TideSDK/creating-an-app-in-tidesdk.html
     You can see the live demo of your application.
   </li>
 
-  <li>Now click 'Package with Runtime'.<br>
+  <li>Now click <b>'Package with Runtime'</b>.<br>
   You can now see a folder named packages in your app's directory. Browse to packages/win32/bundle/DemoApp/ and there you can see your application file along with some other necessary files.
   </li>
 </ul>
