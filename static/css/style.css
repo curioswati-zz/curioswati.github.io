@@ -33,3 +33,7 @@ img {
 blockquote {
     font-size: 20px;
 }
+.reading-time {
+    color: #828282; 
+    font-size: 14px;
+}
