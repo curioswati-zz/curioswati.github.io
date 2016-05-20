@@ -8,7 +8,7 @@ Hello!
 
 Welcome Back.
 
-Today I am writing another Experience of mine, A more important one.
+Today I am writing another Experience of mine, A more important one!
 
 Although, The Good News first. I got selected in [Outreachy Round 12](https://wiki.gnome.org/Outreachy/2016/MayAugust/#Accepted_Participants).  
 So I am going to write my complete journey, From the beginning to the selection. 
@@ -39,7 +39,7 @@ Code reviews, approvals, many things before your code is live. It removes any tr
 _**"Patience"**_.
 
 Open source is about *community*. There is a big community of people working for a common purpose. You find like-minded people.
-Your ideas, beliefs get accompanied and hence they get polished. Your understanding deepens, your views broadened.
+Your ideas, beliefs get accompanied and hence they get polished. Your understanding deepens, your views broadens.
 _**"Community"**_.
 
 Last but of course not the least, you get deep knowledge of the language/platform of your choice (on the basis of which, you chose the project).
@@ -64,7 +64,7 @@ What matters is, how much faith you have in yourself and till when are you deter
 
 <br>
 I was afraid that I will need to write a timeline, and I have no idea about the project so how would I?
-Then It requires a patch fix also. Again a _**"How"**_.
+Then It requires a bug fix also. Again a _**"How"**_.
 But Now I realize that It was an unnecessary fear. It is where the community comes into play.
 I would like to advice:
 
@@ -136,7 +136,7 @@ Now I might sound hopeless to use this heading.
 Yes, I was kind of losing hope.
 
 But the post title had to be justified. I couldn't give up.
-I started much early this time. And this time for [GSoC'16](https://summerofcode.withgoogle.com/) :-P.
+I started much earlier this time. And this time for [GSoC'16](https://summerofcode.withgoogle.com/) :-P.
 
 This time, I kept all previously noted points in mind.
 
@@ -160,6 +160,7 @@ People responded, and helped me find some issues that I could solve. I solved fe
 Then came the waiting period. As I mentioned above, _**"Patience"**_ is required in open source.
 
 Since the project is big, people are involved with many things at a time. So they can't review your code instantly.
+
 Developers reviewed, commented, I iterated on the code and the process went on for around 3-4 iterations.
 It took around a month for my first patch to be merged.
 
@@ -184,20 +185,20 @@ Set up development environments for around 3-4 of them (which I found of interes
 ### The Final Step ###
 A random day, I was looking through the organization list of [Outreachy'12](https://wiki.gnome.org/Outreachy/2016/MayAugust#Participating_Organizations) and saw [openshift-origin](https://www.openshift.org/) there. The description looked interesting.
 I followed the link to their [Github wiki](https://github.com/openshift/outreachy). There I found this project [FTL-Installer](https://github.com/ftl-toolbox/ftl_installer).
-It's Overview looked interesting to me. Although It was going to be a start from scratch project.
+It's Overview looked interesting to me. Although It was going to be a start from scratch project,
 But the idea caught me. So I went to [IRC](http://irc.lc/freenode/openshift), talked to mentors. The mentors were so quick to reply.
 I explained my interest to them. They first tried to make me understand the level of complexity, as It was a fresh project.
 No pre-cooked code base to learn from.
 
 But I was determined to not switch this time. Finally, they were ready to help. They gave me a starter bug to work on.
-I coded it, submit a PR. Iterations happened, and It got merged.
+I coded it, submitted a PR. Iterations happened, and It got merged.
 
 From then on, I left everything else. This was the time to apply the rule of thumb, **Focus**.
 I kept hanging on the IRC daily. Kept pinging the mentors for further progress.
-Then the day came; the application deadline. I submit my application. Wrote it 2 days before the deadline.
+Then the day came; the application deadline. I submitted my application. Wrote it 2 days before the deadline.
 Got it reviewed from two of my seniors I mentioned above. Also forwarded to mentors for unofficial review.
 
-At the same time, applications were being accepted for GSoC too. I was suggested to try for that too (Which I think, was a good suggestion). But I didn't.
+At the same time, applications were being accepted for GSoC too. I was suggested to try for that too (Which I think, was a good suggestion). But I didn't take that.
 
 > This is something I am not certain of suggesting you as the author of this post right now. I would say, read it as my experience and use your own mind here.
 
