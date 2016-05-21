@@ -1,0 +1,31 @@
+<section class="comments">
+    {% capture post_slug %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}{% endcapture %}
+    
+    <hr class="comments__separator">
+    <h2 class="comments__heading heading-2">Comments</h2>
+
+    {% if site.data.comments[post_slug] %}
+        {% assign comments = site.data.comments[post_slug] | sort %}
+        
+        {% for comment in comments %}
+            {% assign hash = comment[1].hash %}
+            {% assign name = comment[1].name %}
+            {% assign url = comment[1].url %}
+            {% assign date = comment[1].date %}
+            {% assign message = comment[1].message %}
+
+            {% include comment.html index=forloop.index hash=hash name=name url=url date=date message=message %}
+        {% endfor %}
+    {% else %}
+    <p>No comments yet! </p>
+    {% endif %}
+
+    <br>
+    <p class="comments__heading heading-2">Leave a comment</p>
+    {% include new_comment.html %}
+    <p> Please refresh the page 2-3 times, the comment will appear. Implementing ajax soon. </p>
+</section>
+
+<script type="text/template" id="template--new-comment">
+    {% include comment.html hash="@hash" name="@name" url="@url" date="@date" message="@message" %}
+</script>
