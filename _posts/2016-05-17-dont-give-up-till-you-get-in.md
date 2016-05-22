@@ -1,6 +1,7 @@
 ---
 title:  "Don't give up... Till you get in"
 date:   2016-05-19 04:00:00
+tags: ['index', 'experience', 'learning', 'outreachy', 'open-source']
 categories: outreachy
 permalink: /outreachy/dont-give-up-till-you-get-in/
 ---
@@ -24,26 +25,29 @@ In the beginning, I just knew that [Outreachy](https://www.gnome.org/outreachy/)
 Later on, while discussing with [Shaifali](https://exploreshaifali.github.io) about the internship, her mentor, her co-interns, the work she was doing etc.,
 I understood the importance of this opportunity.
 
-After discussing with her, I realized that there was learning in various aspects. You learn how to work with people thousands of miles away from you.
-Where in confusion, you can't discuss things face to face, you need to be very elaborative to make your points clear.
-_**"The art of Communicating"**_.
+After discussing with her, I realized that there was learning in various aspects.
 
+_**"The art of Communicating"**_,
+ You learn how to work with people thousands of miles away from you.
+Where in confusion, you can't discuss things face to face, you need to be very elaborative to make your points clear.
+
+_**"Coding Standards and Best Practices"**_,
 You get to work on a project that has numerous eyes on it. This enforces standards implicitly,
 you can't make excuses then (for e.g. 'I didn't get time to write comments'). Because it's like an unwritten rule here.
-_**"Coding Standards and Best Practices"**_.
 
+_**"Patience"**_,
 It makes you learn to have patience. Yes, this is very important when you are working on open source projects.
 This is how they maintain quality and stability in the product.
 This includes code reviews, approvals among other things before your code is live. It removes any traces of mistakes.
-_**"Patience"**_.
 
+_**"Community"**_,
 Open source is about *community*. There is a big community of people working for a common purpose. You find like-minded people.
 Your ideas, beliefs get accompanied and hence they get polished. Your understanding deepens, your views broadens.
-_**"Community"**_.
 
+_**"Technical"**_,
 Last but of course not the least, you get deep knowledge of the language/platform of your choice (on the basis of which, you chose the project).
 Since I and [Shaifali](https://exploreshaifali.github.io/) are Pythonistas, so we were primarily into Python. (including design patterns, testing approaches, and frameworks, advanced concepts of the language).
-_**"Technical"**_. 
+
 
 And of course, you get a fair amount of money, that you can re-invest in learning.
 <br>
@@ -59,11 +63,11 @@ But since I was too late (I started around 7 days before the application deadlin
 I must say, it was a _**Big Mistake**_.
 
 > Yes, it was a big mistake to give up. Because seriously, after going through this complete procedure in a long time, I have figured that it doesn't really make a big difference how much time is left.
-What matters is, how much faith you have in yourself and till how long you determined not to give up.
+What matters is, how much faith you have in yourself and how long are you determined not to give up.
 
 <br>
 I was afraid that I will need to write a timeline, and I had no idea about the project so how would I?
-Moreover, it requires a bug fix also (again a _**"How"**_).
+Moreover, it required a bug fix also (again a _**"How"**_).
 But now I realize that it was an unnecessary fear. It is where the community comes into play.
 I would like to advice:
 
@@ -175,7 +179,7 @@ Probably I thought wrong again, probably I could get in, but at that time, I dec
 I compared my capabilities with others. I measured my efforts on an inappropriate scale.
 
 It was around a month before the application submission deadline. I was looking for organizations in GSoC listing. 
-Looked through many of them, read their project ideas, joined several mailing list,
+Looked through many of them, read their project ideas, joined several mailing lists,
 and set up development environments for around 3-4 of them (in which I found interest of course).
 <br>
 <br>
@@ -183,7 +187,7 @@ and set up development environments for around 3-4 of them (in which I found int
 ### The Final Step ###
 A random day, I was looking through the organization list of [Outreachy'12](https://wiki.gnome.org/Outreachy/2016/MayAugust#Participating_Organizations) and saw [openshift-origin](https://www.openshift.org/) there. The description looked interesting.
 I followed the link to their [Github wiki](https://github.com/openshift/outreachy). There I found this project [FTL-Installer](https://github.com/ftl-toolbox/ftl_installer).
-It's Overview looked interesting to me. Although It was going to be a start from scratch project,
+It's Overview looked interesting to me. Although It was going to start from scratch,
 but the idea caught my attention. So I went to [IRC](http://irc.lc/freenode/openshift), talked to the mentors. The mentors were so quick to reply.
 I explained my interest to them. They first tried to make me understand the level of complexity (as It was a fresh project so there was no pre-cooked code base to learn from), and suggested to try for some other project.
 
@@ -216,3 +220,8 @@ But few things are good to learn from other's experiences. I also learned few of
 So do try your own way, keep the above points in mind and don't forget...
 
 _**"Don't Give Up... Till You Get In"**_
+
+
+<br>
+<br>
+PS: Special thanks to [Amber Jain](http://amberja.in/) for helping me improve the post.
