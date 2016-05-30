@@ -33,4 +33,40 @@ img {
 blockquote {
     font-size: 20px;
 }
-
+.project-card {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin:20px;
+}
+.project-card > span {
+    position:relative;
+    top: 70px;
+    left:20px;
+    font-weight:bold;
+}
+.project-card > span > a,
+.project-card > span > h6 > a{
+    color: white;
+}
+.card-iips-app {
+    background-color: #125c9c;
+}
+.card-iips-app > span > a {
+    color: #D34136;
+}
+.card-gitoscope {
+    background-color: #f7e540;
+}
+.card-gitoscope > span > a {
+    color: #125c9c;
+}
+.card-sjdl {
+    background-color: #00a2e8;
+}
+.card-slack {
+    background-color: #d91852;
+}
+.card-sjdl > span > a {
+    color: white;
+}
