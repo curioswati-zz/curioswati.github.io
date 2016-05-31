@@ -52,21 +52,36 @@ blockquote {
 .card-iips-app {
     background-color: #125c9c;
 }
+.card-iips-app:hover {
+    background-color: rgba(18, 92, 156, 0.6);
+}
 .card-iips-app > span > a {
     color: #D34136;
 }
 .card-gitoscope {
     background-color: #f7e540;
 }
+.card-gitoscope:hover {
+    background-color: rgba(247, 229, 64, 0.6);
+}
 .card-gitoscope > span > a {
-    color: #125c9c;
+    color: #000;
 }
 .card-sjdl {
     background-color: #00a2e8;
 }
-.card-slack {
-    background-color: #d91852;
+.card-sjdl:hover {
+    background-color: rgba(0, 162, 232, 0.6);
 }
 .card-sjdl > span > a {
     color: white;
+}
+.card-slack {
+    background-color: #d91852;
+}
+.card-slack:hover {
+    background-color: rgba(217, 24, 82, 0.6);
+}
+.card-slack > span > a {
+    color: black;
 }
