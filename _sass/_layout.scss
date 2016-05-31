@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 75px;
     background-color: $header-background-color;
 
     // Positioning context for the mobile navigation icon
@@ -115,7 +115,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $title-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }

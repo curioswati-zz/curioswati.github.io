@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: default-about
 title: About
 permalink: /about/
 ---
+
 
 <div class="wrapper">
 	<center>
