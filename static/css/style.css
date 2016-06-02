@@ -18,6 +18,10 @@ img {
 	height:150px;
 	width:150px;
 }
+strong {
+    font-family: Arial;
+    font-size: 14px;
+}
 .site-header {
         max-height: 340px;
         padding-right: 0;
