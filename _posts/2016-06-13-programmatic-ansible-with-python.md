@@ -1,13 +1,13 @@
 ---
-title:  "Writing a playbook to install and run a docker container using ansible python api"
+title:  "Programmatic Ansible with Python"
 date:   2016-06-13 09:00:00
-tags: ['ansible-python-api', 'docker', 'tutorial', 'ansible', 'automation']
+tags: ['tutorial', 'python', 'docker', 'ansible', 'automation', 'ansible-python-api']
 categories: python ansible
 permalink: :categories/:title
 ---
 Hello!
 
-As the title suggests, in this tutorial, we will write a python script to create and run a play in Ansible.
+As the title suggests, in this tutorial, we will write a python script to run Ansible programmatically.
 
 Ansible is an IT automation tool written in Python. You can find out more [here](https://www.ansible.com/).
 We will use [Ansible Python API](http://docs.ansible.com/ansible/developing_api.html) to write the script.
