@@ -13,7 +13,7 @@ Ansible is an IT automation tool written in Python. You can find out more [here]
 We will use [Ansible Python API](http://docs.ansible.com/ansible/developing_api.html) to write the script.
 This API enables us to use Ansible programmatically through Python.
 
-The play will be able to install docker and run a container in the local machine.
+The play will be able to install docker and run a container in a Debian based machine.
 
 So let’s begin!
 <br>

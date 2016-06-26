@@ -5,7 +5,7 @@ tags: ['tool', 'CLI', 'apache-open-office', 'scripting', 'python']
 categories: python
 permalink: /python/writing-a-python-script-to-install-apache-open-office.html
 ---
-<p>We will be writing a python script to create an installer for apache open office.</p>
+<p>We will be writing a python script to create an installer for apache open office for Linux.</p>
 <p>Here is the code, we will go through it step by step.</p>
 {% highlight python %}
 #!/usr/bin/env python
