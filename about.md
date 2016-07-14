@@ -8,7 +8,7 @@ permalink: /about/
 
 * * *
 
-   Hello, This is Swati Jaiswal, currently signed in as a student of Masters of Technology (IT) in [IIPS](http://www.iips.dauniv.ac.in/).
+   Hello, This is Swati Jaiswal, currently signed in as a student of Masters of Technology (IT) in [IIPS](http://iips.edu.in/).
 
    _**Me**_
 
@@ -23,6 +23,6 @@ Previously, I have interned at [Development Center](http://www.iips.dauniv.ac.in
 
    Except coding,
 
-   I like to dance, write poems, short stories, blog, listening music, watching football and much more interesting stuff. I am not much socially active but, you can find me [around](/about/contact).
+   I like dancing, writing poems and short stories, blogging, listening music, watching football and much more interesting stuff. I am not much socially active but, you can find me [around](/about/contact).
 
    _**Signing out... Have a Nice Day!!!**_

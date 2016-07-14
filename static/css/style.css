@@ -89,3 +89,12 @@ blockquote {
 .card-slack > span > a {
     color: black;
 }
+.card-crypt {
+    background-color: #555555;
+}
+.card-crypt:hover {
+    background-color: rgba(85, 85, 85, 0.6);
+}
+.card-crypt > span {
+    color: white;
+}
