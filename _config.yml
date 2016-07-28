@@ -25,3 +25,5 @@ defaults:
 
 #highlighting
 excerpt_separator: ""
+
+encoding: UTF-8
