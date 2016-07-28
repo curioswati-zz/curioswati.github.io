@@ -18,7 +18,7 @@ img {
 	height:150px;
 	width:150px;
 }
-strong {
+strong, b {
     font-family: Arial;
     font-size: 14px;
 }
