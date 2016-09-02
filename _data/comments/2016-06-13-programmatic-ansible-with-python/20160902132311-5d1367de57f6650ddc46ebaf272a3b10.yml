@@ -1,6 +1,6 @@
 name: "Nirav Radia"
 date: "Sep 2, 2016, 1:23 pm"
 hash: 5d1367de57f6650ddc46ebaf272a3b10
-message: "<p>I just had one question. I am using the exact above example but I have connection=\&#39;ssh\&#39; for running to EC2 instances with host=\&#39;ec2.py\&#39;
-Now, my problem is I don\&#39;t want to have remote_user set in my source code and want to use the one specified in /etc/ansible/ansible.cfg. But leaving out that in Options gives me connection error. (P.S. the variable private_key_file specified in /etc/ansible/ansible.cfg is correctly used but remote_user specified there is not used. It is not able to connect correctly unless I specify remote_user in Options)</p>
+message: "<p>I just had one question. I am using the exact above example but I have connection='ssh' for running to EC2 instances with host='ec2.py'
+Now, my problem is I don't want to have remote_user set in my source code and want to use the one specified in /etc/ansible/ansible.cfg. But leaving out that in Options gives me connection error. (P.S. the variable private_key_file specified in /etc/ansible/ansible.cfg is correctly used but remote_user specified there is not used. It is not able to connect correctly unless I specify remote_user in Options)</p>
 <p>Any help would be appreciated. Thanks.</p>"
