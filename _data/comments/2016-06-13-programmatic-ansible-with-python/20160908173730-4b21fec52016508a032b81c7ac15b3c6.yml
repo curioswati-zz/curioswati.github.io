@@ -1,0 +1,6 @@
+name: "Swati Jaiswal"
+date: "Sep 8, 2016, 5:37 pm"
+hash: 4b21fec52016508a032b81c7ac15b3c6
+message: "<p>Hey Automate, you don\&#39;t need to run it using ansible. As it is a python script, you need to run it like:    </p>
+<pre><code>python script-name.py
+</code></pre>"
