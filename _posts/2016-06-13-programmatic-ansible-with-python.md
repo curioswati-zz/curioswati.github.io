@@ -15,7 +15,7 @@ This API enables us to use Ansible programmatically through Python.
 
 The play will be able to install docker and run a container in a Debian based machine.
 
-So let’s begin!
+So let’s begin! (make sure you have ansible installed).
 <br>
 <br>
 
@@ -185,6 +185,17 @@ Here the TaskQueueManager object is created with all the configurations we cooke
 If the TaskQueueManager was initiated successfully then it’s cleaned up in the end.
 
 You can find the complete example in this [gist](https://gist.github.com/curioswati/55843fac0e0d251202006b68d756e245).
+
+To run the script use the following command:    
+
+    python script_name.py
+
+<p>
+<font size="3px">
+<i><b>Note:</b>
+Since it is an example script, you should consider setting up a virtual machine and install ansible in it and then run the script there.</i>
+</font>
+</p>
 
 So we saw an example of how we can leverage the Python API to program ansible. Automation of an automation tool, sounds cool, No?
 
