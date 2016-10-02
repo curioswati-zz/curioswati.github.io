@@ -10,11 +10,11 @@ permalink: /about/contact
 
 Follow me on Twitter: [swati12jaiswal](https://twitter.com/swati12jaiswal). I am more expressive in writing.
 
-Connect at LinkedIn: [swati-jaiswal](#) to explore my work profile.
+Connect at LinkedIn: [swati-jaiswal](https://in.linkedin.com/in/swati-jaiswal-2b1baa98) to explore my work profile.
 
 My open source projects reside at Github: [curioswati](https://github.com/curioswati).
 
-See my circle at Facebook: [Swati Jaiswal](#) and Google:[curioswati](#).
+See my circle at Facebook: [Swati Jaiswal](https://www.facebook.com/curioswati) and Google:[curioswati](#).
 
 Chat on Freenode: [curioswati](#).
 
