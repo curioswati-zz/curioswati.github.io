@@ -1,0 +1,91 @@
+/* global styles */
+
+.project-card {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin:20px;
+}
+.project-card > span {
+    position:relative;
+    top: 70px;
+    left:20px;
+    font-weight:bold;
+}
+.project-card .name {
+    color: white;
+}
+
+/* iips-app */
+
+.card-iips-app {
+    background-color: #125c9c;
+}
+.card-iips-app:hover {
+    background-color: rgba(18, 92, 156, 0.6);
+}
+.card-iips-app .name {
+    color: #FFD53E;
+}
+
+/* gitoscope */
+
+.card-gitoscope {
+    background-color: #f7e540;
+}
+.card-gitoscope:hover {
+    background-color: rgba(247, 229, 64, 0.6);
+}
+.card-gitoscope .name {
+    color: #000;
+}
+
+/* sjdownloader */
+
+.card-sjdl {
+    background-color: #00a2e8;
+}
+.card-sjdl:hover {
+    background-color: rgba(0, 162, 232, 0.6);
+}
+
+/* drop to slack */
+
+.card-slack {
+    background-color: #d91852;
+}
+.card-slack:hover {
+    background-color: rgba(217, 24, 82, 0.6);
+}
+.card-slack .name {
+    color: black;
+}
+
+/* cryptanalyzer */
+
+.card-crypt {
+    background-color: rgba(85, 85, 85, 0.8);
+}
+.card-crypt:hover {
+    background-color: rgba(85, 85, 85, 0.6);
+}
+.card-crypt .name {
+    color: #125c9c;
+}
+
+/* py-google-auth */
+.card-py-google {
+    background-color: #FBBC05;
+}
+.card-py-google:hover {
+    background-color: #FFD53E;
+}
+.card-py-google .name {
+    color: #4285F4;
+}
+.open-source > div{
+    background-color: #04B4AE;
+    margin: 10px 5px;
+    padding: 10px;
+    width: 200px;
+}
