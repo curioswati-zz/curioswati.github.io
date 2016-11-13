@@ -27,3 +27,6 @@ defaults:
 excerpt_separator: ""
 
 encoding: UTF-8
+
+collections:
+  - projects
