@@ -1,0 +1,63 @@
+name: "santhosh chaitanya"
+date: "Nov 18, 2016, 10:37 pm"
+hash: 7e8fdecee7784f2b6ee4cfc42326db88
+message: "<p>Hi Swati,</p>
+<p>Thank you for great article. I run the same above script(with tiny bit of modification) to run a simple playbook to perform ping command to localhost . I am getting below syntax error when i execute python script </p>
+<p>Error Details:</p>
+<p>Traceback (most recent call last):
+  File &quot;ansible.py&quot;, line 2, in &lt;module&gt;
+    from ansible.parsing.dataloader import DataLoader
+  File &quot;/home/tcprod/schaitanya/python_ansible/ansible.py&quot;, line 2, in &lt;module&gt;
+    from ansible.parsing.dataloader import DataLoader
+ImportError: No module named parsing.dataloader</p>
+<p>Below is the entire script</p>
+<p>from collections import namedtuple
+from ansible.parsing.dataloader import DataLoader
+from ansible.vars import VariableManager
+from ansible.inventory import Inventory
+from ansible.playbook.play import Play
+from ansible.executor.task_queue_manager import TaskQueueManager</p>
+<p>#Initialize the objects that are needed for the play.</p>
+<p>Options = namedtuple(\&#39;Options\&#39;,
+                [\&#39;connection\&#39;, \&#39;module_path\&#39;, \&#39;forks\&#39;, \&#39;become\&#39;,
+                 \&#39;become_method\&#39;, \&#39;become_user\&#39;, \&#39;check\&#39;]
+            )</p>
+<p>#initialize needed objects</p>
+<p>variable_manager = VariableManager()
+loader = DataLoader()</p>
+<p>options = Options(
+    connection=\&#39;local\&#39;, module_path=\&#39;&#39;, forks=100, become=True,
+    become_method=\&#39;sudo\&#39;, become_user=\&#39;root\&#39;, check=False)
+passwords = dict(vault_pass=\&#39;secret\&#39;)</p>
+<p>#create inventory and pass to variable manager</p>
+<p>inventory = Inventory(loader=loader, variable_manager=variable_manager,
+                      host_list=\&#39;localhost\&#39;)
+variable_manager.set_inventory(inventory)</p>
+<p>#create play with tasks</p>
+<p>play_src = dict(
+    name=&quot;ping localhost&quot;,
+    hosts=&quot;localhost&quot;,
+    gather_facts=&quot;no&quot;,
+    tasks=[</p>
+<pre><code>    # installing dependencies
+
+
+    dict(name=&quot;ping local host&quot;,
+         action=dict(module=&quot;ping&quot;))
+       ])
+</code></pre><p>play = Play().load(play_src, variable_manager=variable_manager, loader=loader)</p>
+<p>tqm = None
+try:
+    tqm = TaskQueueManager(
+            inventory=inventory,
+            variable_manager=variable_manager,
+            loader=loader,
+            options=options,
+            passwords=passwords,
+            stdout_callback=&quot;default&quot;,
+        )
+    result = tqm.run(play)
+finally:
+    if tqm is not None:
+        tqm.cleanup()</p>
+<p>Googled regarding this but got little help. Please let me know how to resolve this dependency issue and make the python program work</p>"
