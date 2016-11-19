@@ -5,9 +5,9 @@ message: "<p>Hi Swati,</p>
 <p>Thank you for great article. I run the same above script(with tiny bit of modification) to run a simple playbook to perform ping command to localhost . I am getting below syntax error when i execute python script </p>
 <p>Error Details:</p>
 <p>Traceback (most recent call last):
-  File &quot;ansible.py&quot;, line 2, in &lt;module&gt;
+  File 'ansible.py', line 2, in &lt;module&gt;
     from ansible.parsing.dataloader import DataLoader
-  File &quot;/home/tcprod/schaitanya/python_ansible/ansible.py&quot;, line 2, in &lt;module&gt;
+  File '/home/tcprod/schaitanya/python_ansible/ansible.py', line 2, in &lt;module&gt;
     from ansible.parsing.dataloader import DataLoader
 ImportError: No module named parsing.dataloader</p>
 <p>Below is the entire script</p>
@@ -18,32 +18,32 @@ from ansible.inventory import Inventory
 from ansible.playbook.play import Play
 from ansible.executor.task_queue_manager import TaskQueueManager</p>
 <p>#Initialize the objects that are needed for the play.</p>
-<p>Options = namedtuple(\&#39;Options\&#39;,
-                [\&#39;connection\&#39;, \&#39;module_path\&#39;, \&#39;forks\&#39;, \&#39;become\&#39;,
-                 \&#39;become_method\&#39;, \&#39;become_user\&#39;, \&#39;check\&#39;]
+<p>Options = namedtuple('Options',
+                ['connection', 'module_path', 'forks', 'become',
+                 'become_method', 'become_user', 'check']
             )</p>
 <p>#initialize needed objects</p>
 <p>variable_manager = VariableManager()
 loader = DataLoader()</p>
 <p>options = Options(
-    connection=\&#39;local\&#39;, module_path=\&#39;&#39;, forks=100, become=True,
-    become_method=\&#39;sudo\&#39;, become_user=\&#39;root\&#39;, check=False)
-passwords = dict(vault_pass=\&#39;secret\&#39;)</p>
+    connection='local', module_path='';, forks=100, become=True,
+    become_method='sudo', become_user='root', check=False)
+passwords = dict(vault_pass='secret')</p>
 <p>#create inventory and pass to variable manager</p>
 <p>inventory = Inventory(loader=loader, variable_manager=variable_manager,
-                      host_list=\&#39;localhost\&#39;)
+                      host_list='localhost')
 variable_manager.set_inventory(inventory)</p>
 <p>#create play with tasks</p>
 <p>play_src = dict(
-    name=&quot;ping localhost&quot;,
-    hosts=&quot;localhost&quot;,
-    gather_facts=&quot;no&quot;,
+    name='ping localhost',
+    hosts='localhost',
+    gather_facts='no',
     tasks=[</p>
 <pre><code>    # installing dependencies
 
 
-    dict(name=&quot;ping local host&quot;,
-         action=dict(module=&quot;ping&quot;))
+    dict(name='ping local host',
+         action=dict(module='ping'))
        ])
 </code></pre><p>play = Play().load(play_src, variable_manager=variable_manager, loader=loader)</p>
 <p>tqm = None
@@ -54,7 +54,7 @@ try:
             loader=loader,
             options=options,
             passwords=passwords,
-            stdout_callback=&quot;default&quot;,
+            stdout_callback='default',
         )
     result = tqm.run(play)
 finally:
