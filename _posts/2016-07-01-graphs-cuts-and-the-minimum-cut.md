@@ -29,13 +29,13 @@ There are two types of graphs mainly:
 
 * Directed - A graph where the vertices are unordered pairs for a given edge.
 
-![undirected-graph-example](/images/undirected-graph.jpg)
+![directed-graph-example](/images/directed-graph.jpg)
 
 ###### source: slide from Design and Analysis of Algorithms course by Tim Roughgarden on coursera.
 
 * Undirected - When vertices are an ordered pair.
 
-![directed-graph-example](/images/directed-graph.jpg)
+![undirected-graph-example](/images/undirected-graph.jpg)
 
 ###### source: slide from Design and Analysis of Algorithms course by Tim Roughgarden on coursera.
 
