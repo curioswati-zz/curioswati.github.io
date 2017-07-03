@@ -6,3 +6,11 @@ h4
 {
 	font-weight: bold;
 }
+.note {
+    font-size: 12px;
+    font-style: Italic;
+    font-weight: bold;
+}
+strong, b {
+    font-size: 14px;
+}

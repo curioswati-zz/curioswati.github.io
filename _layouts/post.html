@@ -19,7 +19,7 @@ layout: default
     {% if page.meta %} • {{ page.meta }}{% endif %}
     {% for tag in page.tags %}
       {% if tag != "index" %}
-        <span class="pull-right label label-default" style="margin: 2px;">{{ tag }}</span>
+        <span class="pull-right label label-default label-post">{{ tag }}</span>
       {% endif %}
     {% endfor %}
     </p>

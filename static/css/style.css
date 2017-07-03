@@ -13,9 +13,6 @@
         list-style-image:url(http://www.sendesignz.com/Demo/jQuery/expanding_list_item/Images/selected.png);
         cursor:pointer;
 }
-strong, b {
-    font-size: 14px;
-}
 .site-header {
         max-height: 340px;
         padding-right: 0;
@@ -33,4 +30,15 @@ blockquote {
 }
 a:hover {
     text-decoration: none;
+}
+.label-index {
+    font-size: 11px;
+}
+.label {
+    background-color: #999;
+    border: 1px solid #888;
+}
+.label-post {
+    padding: 4px 6px;
+    margin: 2px;
 }
