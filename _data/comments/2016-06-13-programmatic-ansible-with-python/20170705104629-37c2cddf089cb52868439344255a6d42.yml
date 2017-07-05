@@ -1,0 +1,7 @@
+name: "Ruby"
+date: "Jul 5, 2017, 10:46 am"
+hash: 37c2cddf089cb52868439344255a6d42
+message: "<p>I receive below error:</p>
+<pre><code>from ansible.parsing.dataloader import DataLoader
+</code></pre><p>ImportError: No module named parsing.dataloader</p>
+<p>Can you please help on this?</p>"
