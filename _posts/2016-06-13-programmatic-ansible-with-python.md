@@ -10,7 +10,7 @@ Hello!
 As the title suggests, in this tutorial, we will write a python script to run Ansible programmatically.
 
 Ansible is an IT automation tool written in Python. You can find out more [here](https://www.ansible.com/).
-We will use [Ansible Python API](http://docs.ansible.com/ansible/developing_api.html) to write the script.
+We will use [Ansible Python API 2.0](http://docs.ansible.com/ansible/developing_api.html) to write the script.
 This API enables us to use Ansible programmatically through Python.
 
 The play will be able to install docker and run a container in a Debian based machine.
