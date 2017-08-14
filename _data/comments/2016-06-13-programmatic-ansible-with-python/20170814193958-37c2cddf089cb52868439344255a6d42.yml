@@ -1,0 +1,5 @@
+name: "Ruby"
+date: "Aug 14, 2017, 7:39 pm"
+hash: 37c2cddf089cb52868439344255a6d42
+message: "<p>Can you please help me to specify tags while running playbook as below:</p>
+<p>ansible-playbook -i inventoryName playbookName.yml --tags tagName</p>"
